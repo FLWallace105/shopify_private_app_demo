@@ -20,7 +20,7 @@ ShopifyAPI::Context.setup(
 ```
 See the initialize method for mapping the @app_token and @shopname variables to the .env file, example below:
 
-https://github.com/FLWallace105/shopify_private_app_demo
+
 ![example .env file](https://github.com/FLWallace105/shopify_private_app_demo/blob/master/image_folder/new_env_file_image.png?raw=true)
 
 
