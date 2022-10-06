@@ -1,4 +1,4 @@
-# GIST for Using shopify_api gem in Private App to pull Products or Other Resources
+# Using shopify_api gem in Private App to pull Products or Other Resources
 You want/need to run a private app on your Shopify store using the gem 'shopify-api' and the documentation is iffy and all the code you used in versions 9.5 or earlier now breaks. This will get you up and running. You can run this on a local machine, remotely on a server, or container. With a few mods you can get it running on AWS Lambda (you will need a custom Ruby runtime though look for another GIST soon on that subject).
 
 ## Details on setup
@@ -19,6 +19,9 @@ ShopifyAPI::Context.setup(
       )
 ```
 See the initialize method for mapping the @app_token and @shopname variables to the .env file, example below:
+
+https://github.com/FLWallace105/shopify_private_app_demo
+![example .env file](https://github.com/FLWallace105/shopify_private_app_demo/blob/master/image_folder/new_env_file_image.png?raw=true)
 
 
 ## WARNING
