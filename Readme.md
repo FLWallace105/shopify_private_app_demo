@@ -27,8 +27,8 @@ See the initialize method for mapping the @app_token and @shopname variables to 
 ## WARNING
 You cannot use your old apps that were created before Shopify's recent changes. You WILL need the "app_token" which is new from Shopify, and shown only once when you create a private app under their new system. Your old apps will still work (for now) but it is likely you will at some point need to change them. Make sure you save your app token somewhere safe!
 
-## Connection Basics
-Once you have your connection set up, this is how you get all the products, not the ".next_page?" and ".fetch_next_page" methods for the version 9.5 and below versions of the gem no longer work.
+## Getting the Products Basics
+Once you have your connection set up, this is how you get all the products, **note the ".next_page?" and ".fetch_next_page" methods for the version 9.5 and below versions of the gem no longer work**.
 
 ```ruby
       client = ShopifyAPI::Clients::Rest::Admin.new()
